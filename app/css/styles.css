@@ -1,0 +1,15 @@
+html {
+    margin:0;
+    background-color: black!important;
+}
+
+.body {
+    background-color: black!important;
+    margin:0;
+    height:50px;
+}
+
+img {
+    width:100vw;
+    height:99vh;
+}
