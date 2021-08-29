@@ -27,7 +27,6 @@ var DesktopDevice = {
                 backgroundColor: "gray"
             });
 
-
             $('#extendedTextContainer').show("slow");
 
             $('#extendedText').text(lorem);
