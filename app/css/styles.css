@@ -1,34 +1,68 @@
-html {
-    margin: 0;
-    background-color: black!important;
-}
-
-.body {
-    background-color: black!important;
-    margin: 0;
-    height: 50px;
-}
-
-img {
-    width: 100vw;
-    height: 99vh;
-}
-
-@media screen and (max-width: 768px) {
-    #desktop {
-        display: none;
-    }
-    #mobile {
-        display: block;
-        height: 100vh
-    }
-}
-
-@media screen and (min-width: 769px) {
-    #desktop {
-        display: block;
-    }
-    #mobile {
-        display: none;
-    }
-}
+        html {
+            margin: 0;
+            background-color: black!important;
+        }
+        
+        .body {
+            background-color: black!important;
+            margin: 0;
+            max-height: 99%;
+        }
+        
+        #main {
+            opacity: 0;
+        }
+        
+        #navBar {
+            border-radius: 10px;
+        }
+        
+        div.col-lg-3 button {
+            color: white;
+            text-decoration: none;
+        }
+        
+        #landingImageContainer {
+            height: 92vh;
+        }
+        
+        #landingImage {
+            height: 92vh;
+        }
+        
+        #moreText {
+            width: 150px;
+        }
+        /* -------------------------------------------------------------*/
+        /* mobile */
+        
+        @media screen and (max-width: 768px) {
+            #landingImage {
+                height: auto;
+            }
+            #landingImageContainer {
+                height: 20vh;
+            }
+            /* #desktop {
+                display: none;
+            } */
+            /* #mobile {
+                display: block;
+                height: 100vh
+            } */
+        }
+        /* -------------------------------------------------------------*/
+        /* desktop */
+        
+        @media screen and (min-width: 769px) {
+            /* #landingImage {
+        background-image: url("../resources/wallpaper.webp");
+        height: 92vh;
+    } */
+            /* #desktop {
+                display: block;
+            }
+            #mobile {
+                display: none;
+            } */
+        }

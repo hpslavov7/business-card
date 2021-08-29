@@ -4,16 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="css/spinner.css"></link>
     <link rel="stylesheet" href="css/styles.css"></link>
     <title>Document</title>
 </head>
 
 <body class="body">
-    <div id="main">
-        <img id="desktop" src="/resources/under-construction-build-work-architecture-iy-1920x1080.jpg" alt="Under construction">
-        <img id="mobile" src="/resources/8410dd5e6f6b899ae14d53873a9349d7.jpg" alt="Under construction">
+    <div id="loader" class="loader">
+        <div class="inner one"></div>
+        <div class="inner two"></div>
+        <div class="inner three"></div>
     </div>
 
+    <div id="main" class="container-fluid">
+        <div id="desktop">
+            <div id="landingImageContainer">
+                <img id="landingImage" class="img-fluid" src="./resources/wallpaper.webp" alt="">
+            </div>
+
+            <div id="menu">
+                <div id="navigation">
+                    <div class="row text-center">
+                        <div class="col-lg-3 ">
+                            <button id="first" class="navigation-link btn btn-link ">Services</button>
+                        </div>
+                        <div class="col-lg-3">
+                            <button id="second" class="navigation-link btn btn-link">Contacts</button>
+                        </div>
+                        <div class="col-lg-3">
+                            <button class="navigation-link btn btn-link">PCE</button>
+                        </div>
+                        <div class="col-lg-3">
+                            <button class="navigation-link btn btn-link">Law cases</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <ul class="nav justify-content-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul> -->
+            </div>
+            <div id="extendedTextContainer" class="row">
+                <p id="extendedText"></p>
+
+                <button id="moreText" class="btn">
+                    Button more
+                </button>
+            </div>
+        </div>
+
+        <!-- <div id="mobile">
+            <div id="landingImageMobileContainer">
+                <img src="resources/wallpaper-mobile.webp" alt="" class="landingImageMobile">
+            </div>
+        </div> -->
+        <!-- <div id="underConstruction">
+            <img id="desktop" src="/resources/under-construction-build-work-architecture-iy-1920x1080.jpg" alt="Under construction">
+            <img id="mobile" src="/resources/8410dd5e6f6b899ae14d53873a9349d7.jpg" alt="Under construction">
+        </div> -->
+
+    </div>
+
+    <script src="libs/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="scripts/constants.js"></script>
+    <script src="scripts/mobile.js"></script>
+    <script src="scripts/desktop.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 
