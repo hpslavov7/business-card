@@ -24,6 +24,7 @@
         
         #landingImageContainer {
             height: 92vh;
+            padding: 0px 0px 0px 10vh;
         }
         
         #landingImage {
@@ -31,6 +32,7 @@
         }
         
         #moreText {
+            display: none;
             width: 150px;
         }
         /* -------------------------------------------------------------*/

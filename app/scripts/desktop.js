@@ -27,18 +27,24 @@ var DesktopDevice = {
                 backgroundColor: "gray"
             });
 
+
             $('#extendedTextContainer').show("slow");
 
             $('#extendedText').text(lorem);
 
             $('#landingImageContainer').animate({
                 height: '80vh',
-                padding: '0 0 0 14rem'
+                padding: '0 0 0 16rem'
             }, 'slow');
 
             $('#landingImage').animate({
                 height: '75vh'
             }, 'slow');
+
+
+            $('#moreText').css({
+                display: 'block'
+            });
 
             // $('#landingImage').css({
             //     height: '75vh'
@@ -53,7 +59,7 @@ var DesktopDevice = {
 
             $('#landingImageContainer').animate({
                 height: '92vh',
-                padding: '0'
+                padding: '0 0 0 10rem'
             }, 'slow');
 
             $('#landingImage').animate({
